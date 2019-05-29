@@ -1,0 +1,8 @@
+<view class="content">
+  <button bindtap="click">click</button>
+  <button bindtap="toList">jump to list</button>
+  <view class="list">1</view>
+  <view class="list">2</view>
+  <view class="list">3</view>
+  <view class="list">4</view>
+</view>

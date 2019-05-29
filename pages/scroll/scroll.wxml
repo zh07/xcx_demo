@@ -1,0 +1,19 @@
+<view class="content">
+  <view class="img-box">
+    <image
+      bindtap="changeIcon"
+      src="{{ isDefault ? '../../image/success_icon.png' : '../../image/defeat_icon.png' }}"
+    ></image>
+  </view>
+
+  <view class="scroll-box">
+    <view class="scroll">
+      <view class="list"></view>
+      <view class="list"></view>
+      <view class="list"></view>
+      <view class="list"></view>
+      <view class="list"></view>
+      <view class="list"></view>
+    </view>
+  </view>
+</view>
